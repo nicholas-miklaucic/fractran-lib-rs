@@ -13,13 +13,13 @@ pub const MAX_REGS: u16 = 1000;
 
 lazy_static! {
     /// The list of the first `MAX_REGS` primes, generated at run time from
-    /// `MAX_REGS`.
+    /// `MAX_REGS` and then saved for all future uses.
     pub static ref PRIMES: Vec<u64> = math::first_n_primes(MAX_REGS);
 }
 
-mod frac;
-mod primebasis;
-mod program;
+pub mod frac;
+pub mod primebasis;
+pub mod program;
 
 #[cfg(test)]
 mod tests {
