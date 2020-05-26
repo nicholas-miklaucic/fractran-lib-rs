@@ -3,9 +3,13 @@ name = "fractran"
 version = "0.1.0"
 authors = ["Nicholas Miklaucic <nicholas.miklaucic@gmail.com>"]
 edition = "2018"
-description = "Code to execute Fractran programs"
+description = "A library to execute Fractran programs"
 keywords = ["esolang"]
 categories = ["mathematics"]
+repository = "https://github.com/nicholas-miklaucic/fractran-lib-rs"
+homepage = "https://github.com/nicholas-miklaucic/fractran-lib-rs"
+license = "MIT OR Apache-2.0"
+readme = "crates-io-readme.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
