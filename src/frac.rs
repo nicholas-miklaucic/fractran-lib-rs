@@ -1,6 +1,6 @@
 //! A representation of a fraction used in Fractran program execution.
 
-use super::primebasis::{Divides, PrimeBasis};
+use super::primebasis::Divides;
 use std::fmt;
 use std::ops::{Div, Mul};
 

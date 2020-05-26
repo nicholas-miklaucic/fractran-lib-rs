@@ -16,7 +16,7 @@ pub struct Program<T: FractranNat> {
 
 impl<T: FractranNat> Program<T> {
     /// Makes a new `Program` with the given nonempty list of fractions.
-    fn new(fracs: Vec<Fraction<T>>) -> Program<T> {
+    pub fn new(fracs: Vec<Fraction<T>>) -> Program<T> {
         Program{
             fracs
         }
